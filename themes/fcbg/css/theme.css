@@ -1,0 +1,290 @@
+/* Style overrides for XNAT "Retro" theme */
+
+body, html body, * body {
+    color: #000;
+    background: #fff;
+    font-family: Verdana, Geneva, sans-serif !important;
+}
+
+#page_wrapper {
+    background: inherit;
+}
+
+#header {
+    background: inherit;
+}
+
+#header_logo {
+  float: right;
+}
+
+/* user bar */
+#user_bar {
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #aaa;
+}
+
+/* main nav */
+#main_nav {
+    background-color: #d0d0d0;
+    /* background-image: linear-gradient(#fff, #fff 80%, #fff); */
+    background-image: linear-gradient(#00599f, #1e345d 85%, #1e345d);
+    border-bottom: 1px solid #777;
+}
+
+#main_nav #nav-home {
+    /* background-image: url('../../../images/xnat-nav-logo-dark-lg.png') !important; */
+    /*background-image: url('../../../images/xnat-nav-logo-black-lg.png') !important;*/
+    /* background-image: url('../images/xnat-nav-logo-retro-lg.png') !important; */
+    background-image: url('../images/cb.png') !important;
+}
+#main_nav #nav-home:hover {
+    background-image: url('../images/fcbg.png') !important;
+}
+
+#main_nav ul.nav > li {
+    border-right: 1px solid #aaa;
+}
+
+#main_nav ul.nav > li {
+    border-right: 1px solid #aaa;
+}
+
+#main_nav ul.nav > li:first-of-type {
+    border-left: 1px solid #aaa;
+}
+
+#main_nav ul.nav > li > a {
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#main_nav ul.nav > li > a:hover,
+#main_nav ul.nav > li.active > a {
+    color: #fff;
+    background-color: #00599f !important;
+}
+
+#main_nav ul.nav li li a:hover {
+    background-color: #ffd;
+}
+
+#main_nav ul.nav li li.active,
+#main_nav ul.nav li li.active > a,
+#main_nav ul.nav li li.active > a:hover {
+    background-color: #00599f;
+}
+
+#main_nav ul.nav table.data-table tr:hover,
+#main_nav ul.nav table.data-table .item:hover {
+    background: #00599f !important;
+    color: #fff !important;
+}
+
+
+.yui-skin-sam .yui-navset .yui-nav,
+.yui-skin-sam .yui-navset .yui-navset-top .yui-nav,
+#search_tabs.yui-navset.yui-navset-top > .wrangler {
+    border-bottom: 5px solid #1e345d !important;
+}
+
+#front_search .yui-skin-sam .yui-navset .yui-nav a,
+#front_search .yui-skin-sam .yui-navset .yui-navset-top .yui-nav a {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.yui-skin-sam .yui-navset .yui-content {
+    background: #fff;
+}
+
+/* tab styles */
+.yui-skin-sam .yui-navset .yui-nav .selected a,
+.yui-skin-sam .yui-navset .yui-nav .selected a em,
+.yui-skin-sam .yui-navset .yui-nav .selected a:focus,
+.yui-skin-sam .yui-navset .yui-nav .selected a:hover {
+    /*background: #957500;*/
+    background: #1e345d;
+    border-color: #13213b;
+}
+
+/* actions menu */
+#actionsMenu > .bd > .first-of-type a {
+    background: #1e345d;
+}
+
+/* NEW tabs */
+.xnat-tab-content.side.pull-right {
+    border-left: 1px solid #aaa;
+}
+.xnat-nav-tabs li.tab {
+    border: 1px solid #aaa;
+}
+.xnat-nav-tabs.side li.tab > a {
+    border-right: 1px solid #aaa;
+}
+.xnat-nav-tabs.side li.tab.active > a {
+    border-left-color: #00599f;
+}
+
+/* panels (admin page) */
+body.xnat .panel-default {
+    border: 1px solid #fff;
+}
+body.xnat .panel-default .panel-body {
+    background: inherit;
+}
+body.xnat .panel-default .panel-heading {
+    background: #1e345d;
+}
+body.xnat .panel-default .panel-footer {
+    border-top: 1px solid #ccc;
+    background: inherit;
+}
+
+.panel .panel-element {
+  color: #000;
+}
+
+/* actions menu */
+#actionsMenu li a:hover,
+#actionsMenu li.yuimenuitem-hassubmenu > a:hover {
+    background-color: #00599f;
+    color: #fff
+}
+
+/* other widgets */
+body #accordion h3 {
+    background: #00599f !important;
+    font-family: inherit !important;
+}
+body #accordion h3.active,
+div.download-column h3 {
+    background: #00599f !important;
+    border: 1px solid #00599f !important;
+}
+body #accordion .content {
+    background: #fff;
+}
+body #accordion .content td.highlighted {
+    background: none;
+    border: none;
+}
+
+/* other ui elements */
+div.containerTitle.withColor {
+   background: #00599f !important;
+}
+
+.xnat-table {
+    color: #000;
+}
+
+.xnat-table tr.highlight:hover,
+.xnat-table.highlight tr:hover,
+.xnat-table.striped.highlight tr:hover {
+    background: #ffd;
+}
+
+
+/* btn1 gets blue background - gradient image and base color to match the bottom of the background image */
+.btn1,
+.btn.primary,
+.btn.submit,
+.btn.save,
+input.btn1, .btn1[type="button"], [type="submit"]
+/*body input.btn1,
+body .btn1[type="button"],
+body [type="submit"] */ {
+    color: #fff;
+    background: #00599d linear-gradient( #00599f, #116aaf );
+    border: 1px solid #085895;
+    box-shadow: 0 1px 1px #203b37;
+}
+
+.btn1:hover,
+.btn.primary:hover,
+.btn.submit:hover,
+.btn.save:hover,
+input.btn1:hover, .btn1[type="button"]:hover, [type="submit"]:hover
+/* body input.btn1:hover,
+body .btn1[type="button"]:hover,
+body [type="submit"]:hover */ {
+    /*background: #096BB7;*/
+    background: #1e345d;
+    box-shadow: none;
+}
+
+label.switchbox > input ~ .switchbox-on,
+label.switchbox > input ~ .switchbox-off {
+    position: relative; left: 10px; top: -4px;
+    color: #1e345d;
+}
+
+#advanced-search-topnav a {
+  color: #1e345d;
+  text-decoration: underline;
+}
+
+#user_bar {
+    background: #fff;
+    color: #000;
+    border-bottom: 1px solid #aaa;
+}
+
+label.switchbox > input:checked + .switchbox-outer {
+    background: #00599f;
+}
+
+#main_nav ul.nav li li a:hover {
+    background-color: #00599f;
+    color: #fff
+}
+
+#main_nav ul.nav li li a {
+    padding: 0 30px 0 15px;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0;
+    background-position: right center;
+    background-repeat: no-repeat;
+    color: #000;
+}
+
+#user_bar {
+    height: 25px;
+    line-height: 25px;
+    font-size: 11px;
+/*    letter-spacing: 0.05em; */
+    vertical-align: middle;
+    color: #fff;
+    background: #1e345d;
+}
+
+/* .yui-skin-sam .yuimenuitem-selected { */
+  /* background-color: #000 ; */
+/* } */
+
+div.titleBarLink {
+    text-decoration: none;
+    font-size: 11px;
+    color: #039;
+    cursor: pointer;
+    display: inline;
+    height: 16px;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #00599f;
+}
+
+.logo_img {
+  content: url("../images/HNPMD.png");
+}
