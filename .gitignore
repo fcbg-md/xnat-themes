@@ -1,5 +1,5 @@
 # only track 'official' themes
-/themes/*
+/themes/*.zip
 !/themes/xnat-dark
 !/themes/xnat-retro
 !/themes/xnat-sample
